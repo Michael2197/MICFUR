@@ -1,0 +1,638 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css?v=4" rel="stylesheet">
+		<style id="mobile-hero-overrides">
+			@media (max-width: 575.98px) {
+				.page-hero { padding: 0.85rem 0 0.75rem 0 !important; }
+				.page-title { font-size: 1.05rem !important; line-height: 1.15 !important; margin-bottom: 0.35rem !important; }
+				.page-subtitle { font-size: 0.78rem !important; line-height: 1.3 !important; margin-bottom: 0.5rem !important; }
+				.page-hero .btn { padding: 6px 14px !important; font-size: 0.8rem !important; }
+				.page-hero-meta, .page-hero-breadcrumb, .page-hero .btn-secondary { display: none !important; }
+			}
+		</style>
+		<title>MICFUR</title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="MICFUR navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">MICFUR<span>.</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item ">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="active"><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="login.html"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Page Hero -->
+		<div class="page-hero">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-7">
+						<div class="page-hero-text">
+							<p class="page-kicker">Discover</p>
+							<h1 class="page-title">Furniture studio marketplace</h1>
+							<p class="page-subtitle">Curated pieces for modern interiors. Browse chairs, lounges, and more with a focus on comfort, form, and everyday usability.</p>
+							<div class="page-hero-meta d-flex flex-wrap align-items-center gap-2">
+								<span class="badge-soft">New arrivals</span>
+								<span class="badge-soft">Best sellers</span>
+								<span class="badge-soft">Editor picks</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 d-none d-lg-block">
+						<div class="page-hero-card">
+							<p class="label">Live inventory</p>
+							<p class="value">Chairs in stock today</p>
+							<p class="hint">Updated in real-time as you explore the collection.</p>
+						</div>
+					</div>
+				</div>
+				<div class="page-hero-breadcrumb d-flex align-items-center flex-wrap gap-2 mt-4">
+					<a href="index.html" class="crumb-link">Home</a>
+					<span class="crumb-separator">/</span>
+					<span class="crumb-current">Shop</span>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Hero -->
+
+		<!-- Start Shop Layout -->
+		<section class="shop-layout untree_co-section before-footer-section">
+			<div class="container">
+				<div class="row gy-5">
+					<div class="col-lg-3">
+						<div class="shop-filter-card">
+							<div class="shop-filter-header d-flex justify-content-between align-items-center mb-3">
+								<h2 class="shop-filter-title">Refine</h2>
+								<button type="button" class="shop-filter-reset btn btn-sm btn-secondary">Reset</button>
+							</div>
+							<div class="shop-filter-group">
+								<p class="shop-filter-label">Category</p>
+								<div class="filter-pills">
+									<button type="button" class="filter-pill is-active">All</button>
+									<button type="button" class="filter-pill">Lounge</button>
+									<button type="button" class="filter-pill">Desk</button>
+									<button type="button" class="filter-pill">Accent</button>
+								</div>
+							</div>
+							<div class="shop-filter-group">
+								<p class="shop-filter-label">Price</p>
+								<div class="filter-pills">
+									<button type="button" class="filter-pill">Under $60</button>
+									<button type="button" class="filter-pill">$60 - $100</button>
+									<button type="button" class="filter-pill">Premium</button>
+								</div>
+							</div>
+							<div class="shop-filter-group">
+								<p class="shop-filter-label">Material</p>
+								<div class="filter-pills">
+									<button type="button" class="filter-pill">Fabric</button>
+									<button type="button" class="filter-pill">Leather</button>
+									<button type="button" class="filter-pill">Mesh</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="shop-toolbar d-flex flex-wrap align-items-center justify-content-between mb-4 gap-3">
+							<p class="shop-count mb-0">Showing 8 curated chairs</p>
+							<div class="d-flex flex-wrap align-items-center gap-2">
+								<label class="shop-sort-label me-1">Sort by</label>
+								<select class="shop-sort-select form-select form-select-sm">
+									<option selected>Featured</option>
+									<option>Price: low to high</option>
+									<option>Price: high to low</option>
+									<option>Newest</option>
+								</select>
+							</div>
+						</div>
+						<div class="row g-3 shop-grid">
+							<!-- Card 1 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-3.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Nordic Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$50.00</strong>
+											<span class="product-tag">Best for small spaces</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 2 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-1.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Nordic Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$50.00</strong>
+											<span class="product-tag">Everyday comfort</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 3 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-2.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Kruzo Aero Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$78.00</strong>
+											<span class="product-tag">Task & focus</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 4 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-4.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Signature Lounge Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$89.00</strong>
+											<span class="product-tag">Evening unwind</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 5 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-5.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Contemporary Accent Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$95.00</strong>
+											<span class="product-tag">Statement piece</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 6 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-6.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Premium Recliner Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$120.00</strong>
+											<span class="product-tag">Long-form lounging</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 7 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-2.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Kruzo Aero Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$78.00</strong>
+											<span class="product-tag">Contrast stitching</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- Card 8 -->
+							<div class="col-6 col-sm-6 col-lg-4">
+								<a class="product-item product-card" href="#">
+									<div class="product-media" onclick="openLightbox(event)">
+										<img src="images/product-3.png" class="img-fluid product-thumbnail">
+									</div>
+									<div class="product-body">
+										<h3 class="product-title">Ergonomic Chair</h3>
+										<div class="product-meta d-flex justify-content-between align-items-center">
+											<strong class="product-price">$43.00</strong>
+											<span class="product-tag">Entry level</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Shop Layout -->
+
+			<div id="image-lightbox" aria-hidden="true" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:radial-gradient(1200px 600px at 20% 20%, rgba(0,209,255,.06), transparent 60%),radial-gradient(1000px 500px at 90% 10%, rgba(138,92,255,.08), transparent 60%),rgba(0,0,0,0.65);backdrop-filter:blur(10px) saturate(120%);-webkit-backdrop-filter:blur(10px) saturate(120%);display:none;z-index:2000;align-items:center;justify-content:center;padding:2vh 2vw;">
+				<div class="lb-inner" style="width:96vw;height:92vh;max-width:1600px;max-height:980px;background:linear-gradient(180deg, rgba(18,24,32,0.82), rgba(12,17,24,0.82));border-radius:22px;border:1px solid rgba(255,255,255,0.14);box-shadow:0 30px 80px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.06);position:relative;overflow:hidden;">
+					                    <button type="button" class="image-lightbox-close" aria-label="Close" onclick="var o=this.closest('#image-lightbox'); if(window.LB && LB.disposeObj) LB.disposeObj(); if(o){o.classList.remove('is-open');o.classList.add('is-closing');setTimeout(function(){o.style.display='none';o.setAttribute('aria-hidden','true');o.classList.remove('is-closing');},260);}" onmouseenter="this.style.background='rgba(255,255,255,0.18)';this.style.transform='scale(1.06)';" onmouseleave="this.style.background='rgba(255,255,255,0.12)';this.style.transform='scale(1)';" style="position:absolute;top:14px;right:16px;width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.25);color:#ffffff;font-size:22px;line-height:1;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,0.35);transition:transform .15s ease,background .15s ease;">&times;</button>
+                    <button type="button" aria-label="Previous" onclick="lbPrev()" style="position:absolute;left:16px;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.25);color:#ffffff;font-size:28px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,0.35);z-index:3;">&#8249;</button>
+                    <button type="button" aria-label="Next" onclick="lbNext()" style="position:absolute;right:16px;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.25);color:#ffffff;font-size:28px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,0.35);z-index:3;">&#8250;</button>
+					<div class="lb-ambient" aria-hidden="true"></div>
+					<div class="lb-rays" aria-hidden="true"></div>
+					<div class="lb-floor" aria-hidden="true"></div>
+					<div id="lb-info" style="position:absolute;top:16px;left:16px;display:flex;gap:10px;align-items:center;background:rgba(0,0,0,0.28);border:1px solid rgba(255,255,255,0.12);border-radius:999px;padding:8px 12px;z-index:3;box-shadow:0 10px 22px rgba(0,0,0,0.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);">
+						<span id="lb-title" style="color:#e5edf5;font-weight:600;letter-spacing:.2px"></span>
+						<span id="lb-price" style="color:#00d1ff;font-weight:700"></span>
+					</div>
+					<div id="lightbox-status" style="position:absolute;left:50%;top:14px;transform:translateX(-50%);color:#9fb4c9;font-weight:600;background:rgba(0,0,0,0.28);border:1px solid rgba(255,255,255,0.12);padding:6px 12px;border-radius:10px;z-index:3;display:none;"></div>
+					<div id="lightbox-obj3d" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:95%;height:95%;display:none;z-index:2;background:transparent;"></div>
+					<model-viewer id="lightbox-model" camera-controls style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:95%;height:95%;display:none;z-index:2;background:transparent;"></model-viewer>
+					<img id="lightbox-product-image" src="" alt="" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:95%;max-height:95%;object-fit:contain;">
+					<div style="position:absolute;left:16px;right:16px;bottom:16px;padding:12px 18px;display:flex;justify-content:center;gap:12px;background:rgba(0,0,0,0.28);border:1px solid rgba(255,255,255,0.12);border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,0.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:3;">
+						<span style="width:32px;height:32px;border-radius:50%;background:#f44336;border:2px solid rgba(255,255,255,0.85);cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .15s ease;" onclick="selectColor(this)" onmouseenter="this.style.transform='scale(1.08)'" onmouseleave="this.style.transform='scale(1)'"></span>
+						<span style="width:32px;height:32px;border-radius:50%;background:#2196f3;border:2px solid rgba(255,255,255,0.4);cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .15s ease;" onclick="selectColor(this)" onmouseenter="this.style.transform='scale(1.08)'" onmouseleave="this.style.transform='scale(1)'"></span>
+						<span style="width:32px;height:32px;border-radius:50%;background:#4caf50;border:2px solid rgba(255,255,255,0.4);cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .15s ease;" onclick="selectColor(this)" onmouseenter="this.style.transform='scale(1.08)'" onmouseleave="this.style.transform='scale(1)'"></span>
+						<span style="width:32px;height:32px;border-radius:50%;background:#ffeb3b;border:2px solid rgba(255,255,255,0.4);cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .15s ease;" onclick="selectColor(this)" onmouseenter="this.style.transform='scale(1.08)'" onmouseleave="this.style.transform='scale(1)'"></span>
+						<span style="width:32px;height:32px;border-radius:50%;background:#9c27b0;border:2px solid rgba(255,255,255,0.4);cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.4);transition:transform .15s ease;" onclick="selectColor(this)" onmouseenter="this.style.transform='scale(1.08)'" onmouseleave="this.style.transform='scale(1)'"></span>
+					</div>
+				</div>
+			</div>
+			<!-- Start Footer Section -->	
+		<footer class="footer-section">
+			<div class="container relative">
+
+				<div class="sofa-img">
+					<img src="images/sofa.png" alt="Image" class="img-fluid">
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+
+							<form action="#" class="row g-3">
+								<div class="col-auto">
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="col-auto">
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">MICFUR<span>.</span></a></div>
+						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+
+						<ul class="list-unstyled custom-social">
+							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Support</a></li>
+									<li><a href="#">Knowledge base</a></li>
+									<li><a href="#">Live chat</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Jobs</a></li>
+									<li><a href="#">Our team</a></li>
+									<li><a href="#">Leadership</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Nordic Chair</a></li>
+									<li><a href="#">Kruzo Aero</a></li>
+									<li><a href="#">Ergonomic Chair</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved.
+            </p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</footer>
+		<!-- End Footer Section -->	
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js?v=2"></script>
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script src="https://raw.githubusercontent.com/mrdoob/three.js/r158/build/three.min.js"></script>
+		<script src="https://raw.githubusercontent.com/mrdoob/three.js/r158/examples/js/controls/OrbitControls.js"></script>
+		<script src="https://raw.githubusercontent.com/mrdoob/three.js/r158/examples/js/loaders/OBJLoader.js"></script>
+		<script>
+			            // Lightbox navigation state
+            var LB = (function(){
+                var items = Array.prototype.slice.call(document.querySelectorAll('.product-section .product-item .product-thumbnail'));
+                return { items: items, index: 0 };
+            })();
+
+            					// Map product-1/2/3/4/5/6 thumbnails to their 3D GLB models explicitly
+            (function(){
+                if (!LB.items) return;
+                for (var i=0;i<LB.items.length;i++){
+                    var s = LB.items[i].getAttribute('src')||'';
+                    if (s.indexOf('product-1.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-1.glb');
+                    } else if (s.indexOf('product-2.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-2.glb');
+                    } else if (s.indexOf('product-5.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-5.glb');
+                    } else if (s.indexOf('product-4.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-4.glb');
+                    } else if (s.indexOf('product-6.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-6.glb');
+                    } else if (s.indexOf('product-3.png') !== -1) {
+                        LB.items[i].setAttribute('data-model','models/product-3.glb');
+                    }
+                }
+            })();
+
+            LB.disposeObj = function(){
+                try {
+                    if (LB._obj) {
+                        if (LB._obj.stop) LB._obj.stop();
+                        if (LB._obj.renderer) {
+                            var dom = LB._obj.renderer.domElement;
+                            LB._obj.renderer.dispose();
+                            if (dom && dom.parentNode) dom.parentNode.removeChild(dom);
+                        }
+                        if (LB._obj.controls) LB._obj.controls.dispose();
+                        LB._obj = null;
+                    }
+                } catch(e){}
+                var c = document.getElementById('lightbox-obj3d');
+                if (c) c.style.display = 'none';
+            };
+
+            function setLightboxFromIndex(i){
+                if(!LB.items.length) return;
+                if(i < 0) i = LB.items.length - 1;
+                if(i >= LB.items.length) i = 0;
+                var item = LB.items[i];
+                if(!item) return;
+                var img = document.getElementById('lightbox-product-image');
+                var mv  = document.getElementById('lightbox-model');
+                var objC = document.getElementById('lightbox-obj3d');
+                var imgSrc = item.getAttribute('src') || '';
+                // derive base filename (e.g., product-1 from images/product-1.png)
+                var base = imgSrc.split('/').pop().replace(/\.[^/.]+$/, '');
+                var modelGlb  = 'models/' + base + '.glb';
+                var modelGltf = 'models/' + base + '.gltf';
+                var modelObj  = 'models/' + base + '.obj';
+                var attempted = {};
+
+                function setStatus(msg){
+                    var el = document.getElementById('lightbox-status');
+                    if(!el) return;
+                    if(msg){ el.textContent = msg; el.style.display = 'block'; }
+                    else { el.textContent = ''; el.style.display = 'none'; }
+                }
+
+                function showImage(){
+                    if(mv){ mv.style.display = 'none'; mv.removeAttribute('src'); }
+                    if(objC){ objC.style.display = 'none'; if (LB && LB.disposeObj) LB.disposeObj(); }
+                    if(img){
+                        img.style.display = 'block';
+                        img.src = imgSrc;
+                        img.alt = item.getAttribute('alt') || '';
+                    }
+                    setStatus('');
+                }
+
+                function tryLoadModel(url, fallback){
+                    if(!mv){ fallback(); return; }
+                    if(attempted[url]){ fallback(); return; }
+                    attempted[url] = true;
+                    // if model-viewer custom element not ready, fallback to image
+                    if(!(window.customElements && window.customElements.get && customElements.get('model-viewer'))){
+                        fallback();
+                        return;
+                    }
+                    // reset handlers
+                    mv.removeAttribute('src');
+                    // keep image visible until model finishes loading (unless we force-show below)
+                    var cleaned = false;
+                    function cleanup(){ if(cleaned) return; cleaned = true; mv.removeEventListener('error', onError); mv.removeEventListener('load', onLoad); clearTimeout(fallbackTimer); }
+                    function onError(){ cleanup(); fallback(); }
+                    function onLoad(){ cleanup(); mv.style.display = 'block'; if(img) img.style.display = 'none'; }
+                    mv.addEventListener('error', onError, { once: true });
+                    mv.addEventListener('load', onLoad, { once: true });
+                    var fallbackTimer = setTimeout(function(){ onError(); }, 8000);
+                    mv.setAttribute('src', url);
+                }
+
+                function tryLoadOBJ(url, fallback){
+                    if (!objC){ if (fallback) fallback(); return; }
+                    // cleanup previous and prepare viewport
+                    if (LB && LB.disposeObj) LB.disposeObj();
+                    objC.style.display = 'block';
+                    if (mv) { mv.style.display = 'none'; mv.removeAttribute('src'); }
+                    if (img) { img.style.display = 'none'; }
+                    setStatus('Loading 3D model...');
+
+                    // Use the global THREE from local scripts
+                    if (!window.THREE){
+                        setStatus('Failed to load 3D model');
+                        if (fallback) fallback();
+                        return;
+                    }
+
+                    var w = objC.clientWidth || objC.offsetWidth || 800;
+                    var h = objC.clientHeight || objC.offsetHeight || 600;
+
+                    var T = window.THREE;
+                    var ControlsCtor = T.OrbitControls || window.OrbitControls;
+                    var OBJL         = T.OBJLoader   || window.OBJLoader;
+                    if (!OBJL){
+                        setStatus('Failed to load 3D model');
+                        if (fallback) fallback();
+                        return;
+                    }
+
+                    var renderer = new T.WebGLRenderer({ antialias: true, alpha: true });
+                    renderer.setPixelRatio(window.devicePixelRatio || 1);
+                    renderer.setSize(w, h);
+                    try { if (renderer.outputColorSpace !== undefined && T.SRGBColorSpace) renderer.outputColorSpace = T.SRGBColorSpace; else if (renderer.outputEncoding !== undefined && T.sRGBEncoding) renderer.outputEncoding = T.sRGBEncoding; } catch(e){}
+                    try { renderer.setClearAlpha(0); } catch(e){}
+                    objC.appendChild(renderer.domElement);
+
+                    var scene = new T.Scene();
+                    var camera = new T.PerspectiveCamera(45, w/h, 0.1, 1000);
+                    camera.position.set(0, 0.9, 3.2);
+                    var controls = new Controls(camera, renderer.domElement);
+                    controls.enableDamping = true; controls.dampingFactor = 0.08;
+                    var amb = new T.AmbientLight(0xffffff, 1.0); scene.add(amb);
+                    var dir = new T.DirectionalLight(0xffffff, 0.9); dir.position.set(2,3,4); scene.add(dir);
+
+                    var loader = new OBJL();
+                    var stopped = false;
+                    function stop(){
+                        stopped = true;
+                        try{ renderer.dispose(); }catch(e){}
+                        try{ controls.dispose(); }catch(e){}
+                    }
+                    LB._obj = { renderer: renderer, controls: controls, stop: stop };
+
+                    loader.load(url, function(obj){
+                        var box = new T.Box3().setFromObject(obj);
+                        var size = new T.Vector3(); box.getSize(size);
+                        var center = new T.Vector3(); box.getCenter(center);
+                        obj.position.sub(center);
+                        var maxDim = Math.max(size.x, size.y, size.z) || 1;
+                        var scale = 2.4 / maxDim; obj.scale.setScalar(scale);
+                        // Ensure visible material in case OBJ has no MTL
+                        obj.traverse(function(child){
+                            try{
+                                if (child.isMesh){
+                                    if (!child.material){
+                                        child.material = new T.MeshStandardMaterial({ color: 0xcccccc, metalness: 0.1, roughness: 0.7 });
+                                    }
+                                    if (child.geometry && (!child.geometry.attributes || !child.geometry.attributes.normal)){
+                                        try { child.geometry.computeVertexNormals(); } catch(e){}
+                                    }
+                                }
+                            }catch(e){}
+                        });
+                        scene.add(obj);
+                        setStatus('');
+                        animate();
+                    }, function(evt){
+                        try{
+                            if (evt && evt.total){
+                                var pct = Math.round((evt.loaded/evt.total)*100);
+                                setStatus('Loading 3D model... ' + pct + '%');
+                            }
+                        }catch(e){}
+                    }, function(){
+                        stop();
+                        objC.style.display = 'none';
+                        setStatus('Failed to load 3D model');
+                        if (fallback) fallback();
+                    });
+
+            function lbPrev(){ if(LB.items && LB.items.length){ setLightboxFromIndex(LB.index - 1); } }
+            function lbNext(){ if(LB.items && LB.items.length){ setLightboxFromIndex(LB.index + 1); } }
+
+            window.openLightbox = function(e){
+                if(e){e.preventDefault();}
+                var o=document.getElementById('image-lightbox');
+                if(!o) return;
+                if(e && e.target && LB.items && LB.items.length){
+                    var idx = LB.items.indexOf(e.target);
+                    if(idx === -1){ idx = 0; }
+                    setLightboxFromIndex(idx);
+                }
+                o.style.display='flex';
+                o.setAttribute('aria-hidden','false');
+                o.classList.add('is-open');
+            };
+            function selectColor(el){
+                var container = el && el.parentNode;
+                if(!container) return;
+                var dots = container.querySelectorAll('span');
+                for(var i=0;i<dots.length;i++){
+                    dots[i].style.border = '2px solid rgba(255,255,255,0.4)';
+                }
+                el.style.border = '2px solid rgba(255,255,255,0.9)';
+            }
+        </script>
+    </body>
+</html>
